@@ -5,14 +5,14 @@
   <Registry>https://hub.docker.com/</Registry>
   <Network>bridge</Network>
   <Privileged>false</Privileged>
-  <Support>https://github.com/your-repo/AnKontrol_MailToCookie</Support>
-  <Project>https://github.com/your-repo/AnKontrol_MailToCookie</Project>
+  <Support>https://github.com/Eth030/AnKontrol_MailToCookie</Support>
+  <Project>https://github.com/Eth030/AnKontrol_MailToCookie</Project>
   <Overview>
-    This container runs a web interface to manage Roblox accounts using cookies.
+    This container runs a web interface to add mails to cookies.
   </Overview>
   <Category>Utilities</Category>
   <WebUI>http://[IP]:[PORT:3000]</WebUI>
-  <TemplateURL>https://raw.githubusercontent.com/your-repo/AnKontrol_MailToCookie/main/ankontrol-mailtocookie.xml</TemplateURL>
+  <TemplateURL>https://raw.githubusercontent.com/Eth030/AnKontrol_MailToCookie/refs/heads/main/ankontrol-mailtocookie.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/your-repo/AnKontrol_MailToCookie/main/icon.png</Icon>
   <ExtraParams/>
   <PostArgs/>
