@@ -11,7 +11,7 @@
     This container runs a web interface to add mails to cookies.
   </Overview>
   <Category>Utilities</Category>
-  <WebUI>http://[IP]:[PORT:3000]</WebUI>
+  <WebUI>http://[IP]:[PORT:3098]</WebUI>
   <TemplateURL>https://raw.githubusercontent.com/Eth030/AnKontrol_MailToCookie/refs/heads/main/ankontrol-mailtocookie.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/your-repo/AnKontrol_MailToCookie/main/icon.png</Icon>
   <ExtraParams/>
@@ -20,6 +20,6 @@
   <DateInstalled/>
   <DonateText/>
   <DonateLink/>
-  <Config Name="App Data" Target="/app" Default="/mnt/user/appdata/ankontrol-mailtocookie" Mode="rw" Description="Directory for application data." Display="always" Required="true" Mask="false"/>
-  <Config Name="Port" Target="3000" Default="3000" Mode="tcp" Description="Port for the web interface." Display="always" Required="true" Mask="false"/>
+  <Config Name="App Data" Target="/app" Default="/mnt/user/appdata/AnKontrol_MailToCookie/app" Mode="rw" Description="Directory for application data." Display="always" Required="true" Mask="false"/>
+  <Config Name="Port" Target="3098" Default="3098" Mode="tcp" Description="Port for the web interface." Display="always" Required="true" Mask="false"/>
 </Container>
