@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>AnKontrol_MailToCookie</Name>
+  <Repository>node:16</Repository>
+  <Registry>https://hub.docker.com/</Registry>
+  <Network>bridge</Network>
+  <Privileged>false</Privileged>
+  <Support>https://github.com/your-repo/AnKontrol_MailToCookie</Support>
+  <Project>https://github.com/your-repo/AnKontrol_MailToCookie</Project>
+  <Overview>
+    This container runs a web interface to manage Roblox accounts using cookies.
+  </Overview>
+  <Category>Utilities</Category>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
+  <TemplateURL>https://raw.githubusercontent.com/your-repo/AnKontrol_MailToCookie/main/ankontrol-mailtocookie.xml</TemplateURL>
+  <Icon>https://raw.githubusercontent.com/your-repo/AnKontrol_MailToCookie/main/icon.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled/>
+  <DonateText/>
+  <DonateLink/>
+  <Config Name="App Data" Target="/app" Default="/mnt/user/appdata/ankontrol-mailtocookie" Mode="rw" Description="Directory for application data." Display="always" Required="true" Mask="false"/>
+  <Config Name="Port" Target="3000" Default="3000" Mode="tcp" Description="Port for the web interface." Display="always" Required="true" Mask="false"/>
+</Container>
